@@ -8,14 +8,17 @@ namespace KafeKonsol.Data
 {
     public class SiparisDetay
     {
-        public string UrunAd { get; set; }
+        public string UrunAd { get; set; } = string.Empty;
+
         public decimal BirimFiyat { get; set; }
+
         public int Adet { get; set; }
-        public string TutarTL { get; }
 
-        public void Tutar(decimal tutar)
+        public string TutarTL { get; } = string.Empty;
+
+        public decimal Tutar()
         {
-
+            return 0;
         }
 
     }

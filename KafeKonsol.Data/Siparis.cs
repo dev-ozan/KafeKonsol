@@ -11,13 +11,13 @@ namespace KafeKonsol.Data
         public int MasaNo { get; set; }
         public SiparisDurum Durum { get; set; }
         public decimal OdenenTutar { get; set; }
-        public DateTime? AcilisZamani { get; set; }
+        public DateTime AcilisZamani { get; set; } = DateTime.Now;
         public DateTime? KapanisZamani { get; set; }
-        public List<SiparisDetay> SiparisDetaylar { get; set; }
-        public string ToplamTutarTL { get; }
-        public void ToplamTutar(decimal toplamtutar)
+        public List<SiparisDetay> SiparisDetaylar { get; set; } = new List<SiparisDetay>(); // new() kullanılabilr
+        public string ToplamTutarTL { get; } = string.Empty;
+        public decimal ToplamTutar()
         {
-
+            return 0;
         }
     }
 }
