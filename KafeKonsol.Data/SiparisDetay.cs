@@ -14,7 +14,7 @@ namespace KafeKonsol.Data
 
         public int Adet { get; set; }
 
-        public string TutarTL { get; } = string.Empty;
+        public string TutarTL { get { return Tutar().ToString("c2"); } } 
 
         public decimal Tutar()
         {
