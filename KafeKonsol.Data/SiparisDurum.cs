@@ -8,6 +8,6 @@ namespace KafeKonsol.Data
 {
     public enum SiparisDurum
     {
-        Aktif, Odendi, Iptal
+        Aktif = 0, Odendi = 1, Iptal = 2
     }
 }

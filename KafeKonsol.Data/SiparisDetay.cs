@@ -8,7 +8,7 @@ namespace KafeKonsol.Data
 {
     public class SiparisDetay
     {
-        public string UrunAd { get; set; } = string.Empty;
+        public string UrunAd { get; set; } = null!;
 
         public decimal BirimFiyat { get; set; }
 
@@ -18,7 +18,7 @@ namespace KafeKonsol.Data
 
         public decimal Tutar()
         {
-            return 0;
+            return Adet * BirimFiyat;
         }
 
     }
