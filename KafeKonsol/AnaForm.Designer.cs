@@ -79,7 +79,7 @@
             MainMenuStrip = menuStrip1;
             Margin = new Padding(8, 8, 8, 8);
             Name = "AnaForm";
-            Text = "AnaForm";
+            Text = "Kafe Konsol";
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ResumeLayout(false);

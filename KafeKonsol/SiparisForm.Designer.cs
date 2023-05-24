@@ -69,7 +69,7 @@
             // 
             label3.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label3.BackColor = Color.LightCoral;
-            label3.Location = new Point(813, 169);
+            label3.Location = new Point(804, 169);
             label3.Name = "label3";
             label3.Size = new Size(459, 409);
             label3.TabIndex = 2;
@@ -80,7 +80,7 @@
             // 
             label4.Anchor = AnchorStyles.Right;
             label4.AutoSize = true;
-            label4.Location = new Point(1174, 657);
+            label4.Location = new Point(1165, 613);
             label4.Name = "label4";
             label4.Size = new Size(83, 45);
             label4.TabIndex = 3;
@@ -90,7 +90,7 @@
             // 
             label5.Anchor = AnchorStyles.Right;
             label5.AutoSize = true;
-            label5.Location = new Point(837, 657);
+            label5.Location = new Point(828, 613);
             label5.Name = "label5";
             label5.Size = new Size(241, 45);
             label5.TabIndex = 4;
@@ -100,7 +100,7 @@
             // 
             label6.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             label6.AutoSize = true;
-            label6.Location = new Point(813, 18);
+            label6.Location = new Point(804, 18);
             label6.Name = "label6";
             label6.Size = new Size(223, 45);
             label6.TabIndex = 5;
@@ -125,7 +125,7 @@
             // button2
             // 
             button2.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            button2.Location = new Point(1014, 80);
+            button2.Location = new Point(1005, 80);
             button2.Name = "button2";
             button2.Size = new Size(258, 53);
             button2.TabIndex = 9;
@@ -135,7 +135,7 @@
             // button3
             // 
             button3.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            button3.Location = new Point(813, 873);
+            button3.Location = new Point(804, 786);
             button3.Name = "button3";
             button3.Size = new Size(475, 83);
             button3.TabIndex = 10;
@@ -145,7 +145,7 @@
             // button4
             // 
             button4.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            button4.Location = new Point(813, 771);
+            button4.Location = new Point(804, 684);
             button4.Name = "button4";
             button4.Size = new Size(218, 82);
             button4.TabIndex = 11;
@@ -155,7 +155,7 @@
             // button5
             // 
             button5.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            button5.Location = new Point(1061, 772);
+            button5.Location = new Point(1052, 685);
             button5.Name = "button5";
             button5.Size = new Size(227, 81);
             button5.TabIndex = 12;
@@ -170,7 +170,7 @@
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 82;
             dataGridView1.RowTemplate.Height = 41;
-            dataGridView1.Size = new Size(709, 797);
+            dataGridView1.Size = new Size(700, 710);
             dataGridView1.TabIndex = 13;
             // 
             // comboBox1
@@ -185,7 +185,7 @@
             // 
             comboBox2.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             comboBox2.FormattingEnabled = true;
-            comboBox2.Location = new Point(813, 81);
+            comboBox2.Location = new Point(804, 81);
             comboBox2.Name = "comboBox2";
             comboBox2.Size = new Size(167, 53);
             comboBox2.TabIndex = 15;
@@ -195,7 +195,7 @@
             AutoScaleDimensions = new SizeF(19F, 45F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(1471, 1004);
+            ClientSize = new Size(1462, 917);
             Controls.Add(comboBox2);
             Controls.Add(comboBox1);
             Controls.Add(dataGridView1);
@@ -212,9 +212,11 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            Margin = new Padding(4, 4, 4, 4);
+            Margin = new Padding(4);
             MinimumSize = new Size(1488, 988);
             Name = "SiparisForm";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Siparişler";
             ((System.ComponentModel.ISupportInitialize)numericUpDown2).EndInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
